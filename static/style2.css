@@ -1,0 +1,87 @@
+ody {
+    background-color: #f0f0f0;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    margin-top: 50px;
+}
+
+form {
+    text-align: center;
+    margin-top: 50px;
+}
+
+label {
+    display: block;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    font-size: 1.5em;
+    padding: 10px;
+    width: 500px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    font-size: 2em;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0062cc;
+}
+
+p {
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.output {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.5em;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+

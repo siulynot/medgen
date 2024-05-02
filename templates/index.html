@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Generador de Educaciones Médicas</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+   <nav class="navbar">
+    <div class="logo">
+        <img src="{{ url_for('static', filename='logo.png') }}" alt="MedGen">
+        <h1>MedGen</h1>
+    </div>
+    <ul>
+        <li><a href="/">Inicio</a></li>
+        <li><a href="/about">Sobre Nosotros</a></li>
+        <li><a href="/requisites">Requisitos</a></li>
+        <li><a href="/contact">Contacto</a></li>
+    </ul>
+  </nav>
+
+    <h1>Generador de Educaciones Médicas</h1>
+    <form method="POST" action="{{ url_for('generate_text') }}">
+        <label for="prompt">Genera educación sobre:</label>
+        <select name="prompt">
+            <option value="condition">Condición</option>
+            <option value="medication">Medicamento</option>
+        </select>
+        <input type="text" name="condition" placeholder="Ingrese una condición o Medicamento">
+        <input type="submit" value="Generar">
+    </form>
+
+   {% if pdf_url %}
+    <!-- Embed PDF Viewer -->
+    <div style="text-align: center;"> <!-- Ensures that the embed tag is centered -->
+        <embed src="{{ pdf_url }}" type="application/pdf" style="display: block; margin: auto; width: 65%; height: 600px;">
+    </div>
+    <form method="GET" action="{{ pdf_url }}">
+        <button type="submit" style="display: block; margin: auto;">Download PDF</button>
+    </form>
+{% endif %}
+    {% if text %}
+        <p>{{ text }}</p>
+    {% endif %}
+
+<footer>
+    <p>&copy; 2024 MedGen. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
+

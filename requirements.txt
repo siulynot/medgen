@@ -1,0 +1,9 @@
+Flask==3.0.3
+openai==1.25.0
+Markdown==3.6
+transformers==4.40.1
+python-decouple==3.8
+python-dotenv==1.0.1
+
+
+

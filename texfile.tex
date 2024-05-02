@@ -1,0 +1,39 @@
+\documentclass[12pt]{report}
+\newcommand{\mytitle}[1]{\LARGE \textbf{#1}\par}
+\newcommand{\mysubtitle}[1]{\large\textbf{#1}\par}
+\newcommand{\mydate}[1]{\small #1\par}   
+\pagestyle{empty}
+\usepackage{graphicx}
+\usepackage{multicol}  
+\usepackage[margin=0.8in]{geometry}
+\usepackage{amssymb}
+\usepackage{tabularx}
+\usepackage{hyperref}
+\usepackage{subfiles}
+
+
+\begin{document}
+        \noindent%
+        \begin{minipage}[t]{.2\textwidth}
+\vspace{1pt}\includegraphics[width=0.7\linewidth]{media/image1.png}
+        \end{minipage}%
+        \noindent%
+        \begin{minipage}[t]{.7\textwidth}
+                \vspace{1pt}
+		\begin{center}
+		\mytitle{MedGen, Inc.}
+                \mysubtitle{\normalsize Your Street Address}
+                \mysubtitle{\normalsize Tel: You Phone / Fax: Your Fax}
+		\end{center}
+        \end{minipage}%
+
+        \bigskip
+        \noindent 
+        
+	
+	\vspace{\baselineskip}
+
+	 \input{output.txt}	                
+
+
+\end{document}
