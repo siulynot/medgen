@@ -1,10 +1,10 @@
-# My Flask Application for Medical Education
+# MEDGEN - Medical Educations Generator
 
 ## Introduction
 
-This Flask application dynamically generates structured blog posts in multiple languages (Spanish, English, etc.), about medical conditions and medications. These posts are formatted for LaTeX and are specifically designed for patient education, targeting elderly patients to ensure clarity and accessibility.
+This Flask application generates structured blog posts in Spanish, English (or any other language ChatGPT can write) about medical conditions and medications, formatted for LaTeX, designed specifically for patient education aimed at elderly patients. It ensures clarity and accessibility in presenting complex medical information.
 
-![Healthcare Image](url_to_image_here)  <!-- Replace `url_to_image_here` with the actual URL to the image -->
+![Healthcare Image](static/logo.png)  <!-- Replace `url_to_image_here` with the actual URL to the image -->
 
 ## Features
 
