@@ -4,7 +4,7 @@
 
 This Flask application generates structured blog posts in Spanish, English (or any other language ChatGPT can write) about medical conditions and medications, formatted for LaTeX, designed specifically for patient education aimed at elderly patients. It ensures clarity and accessibility in presenting complex medical information.
 
-![Healthcare Image](static/medgenlogo.jpeg)  <!-- Replace `url_to_image_here` with the actual URL to the image -->
+![Healthcare Image](static/medgenlogo.jpg)  <!-- Replace `url_to_image_here` with the actual URL to the image -->
 
 ## Features
 
