@@ -19,7 +19,6 @@ This Flask application generates structured blog posts in Spanish, English (or a
 - **API**: Utilizes OpenAI for dynamic content generation.
 - **Text Processing**: Implemented with Python `markdown` and `transformers`.
 - **Configuration Management**: Managed through `python-decouple`.
-- **Frontend/Additional Scripting**: TypeScript (if applicable).
 
 ## Getting Started
 
@@ -31,7 +30,7 @@ You need to have Python installed and preferably, a virtual environment to manag
 
 ```bash
 # Create a virtual environment
-python3 -m venv venv
+python3 -m venv .
 
 # Activate the virtual environment
 # On Unix or MacOS, use:
