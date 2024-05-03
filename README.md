@@ -22,7 +22,8 @@ This Flask application generates structured blog posts in Spanish, English (or a
 
 ## Getting Started
 
-Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
+- Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.  
+-Follow these instructions to install **pdflatex** in ubuntu: https://gist.github.com/rain1024/98dd5e2c6c8c28f9ea9d.
 
 ### Prerequisites
 
@@ -41,3 +42,5 @@ venv\Scripts\activate
 # Install required dependencies
 pip install -r requirements.txt
 
+# Run the app
+python3 app.py
